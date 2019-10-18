@@ -365,7 +365,19 @@ while validating
     
 end
 
-% Validation results is in "valid_result" variable
+%% Validation results is in "valid_result" variable:
+
+% AverageAccuracy
+% The accuracy in degrees averaged over all collected points for the left eye.
+
+% AveragePrecision
+% The precision (standard deviation) in degrees averaged over all collected points for the left eye.
+
+ % AveragePrecisionRMS
+ % The precision (root mean square of sample-to-sample error) in degrees averaged over all collected points
+ % for the left eye.
+
+
 disp(' ')
 disp('Validation Results:')
 disp('-------------------')
